@@ -1,6 +1,6 @@
-# TechVision科技官网
+# 杭州舒享暖通工程有限公司官网
 
-这是一个现代化的公司官网静态页面，采用响应式设计，适配各种设备。
+这是一个现代化的暖通工程公司官网静态页面，采用响应式设计，适配各种设备。
 
 ## 文件结构
 
@@ -63,7 +63,7 @@ php -S localhost:8000
 ### 修改公司信息
 编辑 `index.html` 文件：
 
-1. **公司名称**：搜索 "TechVision" 进行替换
+1. **公司名称**：搜索 "舒享暖通" 进行替换
 2. **联系方式**：修改 `#contact` 部分的电话、邮箱、地址
 3. **服务内容**：修改 `.service-card` 中的服务描述
 4. **关于我们**：修改 `.about-text` 中的介绍文字
@@ -73,9 +73,9 @@ php -S localhost:8000
 
 ```css
 :root {
-    --primary-color: #2563eb;    /* 主色调 */
-    --secondary-color: #10b981;  /* 辅助色 */
-    --accent-color: #f59e0b;     /* 强调色 */
+    --primary-color: #e65100;    /* 主色调（暖橙色） */
+    --secondary-color: #00897b;  /* 辅助色（青色） */
+    --accent-color: #ff8f00;     /* 强调色（金色） */
     /* ... 其他颜色变量 */
 }
 ```
@@ -144,8 +144,8 @@ php -S localhost:8000
 
 ## 许可证
 
-© 2026 TechVision科技. 保留所有权利.
+© 2026 杭州舒享暖通工程有限公司. 保留所有权利.
 
 ---
 
-如有问题或建议，请联系：contact@techvision.com
+如有问题或建议，请联系：contact@shuxiangnt.com

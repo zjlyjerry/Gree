@@ -1,14 +1,14 @@
 /* 全局样式 */
 :root {
-    --primary-color: #2563eb;
-    --primary-dark: #1d4ed8;
-    --secondary-color: #10b981;
-    --accent-color: #f59e0b;
+    --primary-color: #e65100;
+    --primary-dark: #bf360c;
+    --secondary-color: #00897b;
+    --accent-color: #ff8f00;
     --text-color: #1f2937;
     --text-light: #6b7280;
     --bg-color: #ffffff;
-    --bg-light: #f9fafb;
-    --bg-dark: #111827;
+    --bg-light: #fff8f0;
+    --bg-dark: #1a1a1a;
     --border-color: #e5e7eb;
     --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
     --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
@@ -132,7 +132,7 @@ body {
     display: flex;
     align-items: center;
     padding: 6rem 1.5rem 2rem;
-    background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 50%, #dbeafe 100%);
+    background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 50%, #ffcc80 100%);
 }
 
 .hero-content {
@@ -325,7 +325,7 @@ body {
     width: 100%;
     max-width: 500px;
     height: 350px;
-    background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+    background: linear-gradient(135deg, #ffe0b2 0%, #ffcc80 100%);
     border-radius: var(--radius-lg);
     display: flex;
     flex-direction: column;
